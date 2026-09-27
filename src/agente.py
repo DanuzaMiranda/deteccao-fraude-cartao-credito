@@ -7,8 +7,8 @@ import os
 import re
 import urllib.error
 import urllib.request
-from pathlib import Path
 
+from config import carregar_env as _carregar_env
 from conhecimento import (
     ALIASES_CATEGORIA,
     BUSCA_DESCRICAO,
@@ -19,20 +19,6 @@ from conhecimento import (
     tem_termo,
 )
 from prompts import SYSTEM_PROMPT
-
-RAIZ = Path(__file__).resolve().parent.parent
-
-
-def _carregar_env() -> None:
-    caminho = RAIZ / ".env"
-    if not caminho.exists():
-        return
-    for linha in caminho.read_text(encoding="utf-8").splitlines():
-        linha = linha.strip()
-        if not linha or linha.startswith("#") or "=" not in linha:
-            continue
-        chave, valor = linha.split("=", 1)
-        os.environ.setdefault(chave.strip(), valor.strip().strip('"').strip("'"))
 
 
 def tem_modelo() -> bool:

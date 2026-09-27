@@ -41,6 +41,6 @@ O estudo de detecção deste repositório mostra como achar fraude rara sem se i
 
 ## Link do vídeo
 
-Grave a tela com o chat aberto e publique o link aqui quando o vídeo estiver pronto.
+Este é o único item da entrega que depende da gravação. O roteiro acima já cobre problema, solução, demonstração e diferencial. Grave a tela do chat, com a sua voz, em até 3 minutos, e cole o link no lugar da linha abaixo.
 
 [Link do vídeo]
