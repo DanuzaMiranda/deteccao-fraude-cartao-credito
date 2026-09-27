@@ -1,7 +1,11 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-*.csv
-data/
 .DS_Store
 .mplconfig/
+.env
+.streamlit/secrets.toml
+
+# Dataset grande do Kaggle (o notebook baixa na hora de rodar)
+creditcard.csv
+data/creditcard.csv

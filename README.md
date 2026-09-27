@@ -1,4 +1,41 @@
-# Detecção de fraude em cartão de crédito
+# Projeto final — Vera, versão 2
+
+Este repositório é a entrega final. A versão 2 junta o estudo de detecção de fraude a um assistente que conversa com a pessoa que recebeu o alerta.
+
+A Vera ajuda uma pessoa a entender uma compra marcada no cartão e a escolher o próximo passo: reconhecer, contestar ou pedir bloqueio temporário. O caso usa a cliente fictícia Marina Alves e o Banco Aurora, também fictício. Os números saem dos arquivos em `data/`. Se a informação não está lá, a Vera diz isso.
+
+Este repositório também guarda o estudo de detecção que motivou o tema. O notebook mede fraude rara em dados públicos. Ele não classifica a compra da Marina.
+
+## Os 6 passos do desafio
+
+| Passo | Onde está |
+|-------|-----------|
+| 1. Documentação | [docs/01-documentacao-agente.md](docs/01-documentacao-agente.md) |
+| 2. Base de conhecimento | [docs/02-base-conhecimento.md](docs/02-base-conhecimento.md) e [data/](data/) |
+| 3. Prompts | [docs/03-prompts.md](docs/03-prompts.md) e [src/prompts.py](src/prompts.py) |
+| 4. Aplicação | [src/app.py](src/app.py) |
+| 5. Avaliação | [docs/04-metricas.md](docs/04-metricas.md) e [src/avaliar.py](src/avaliar.py) |
+| 6. Pitch | [docs/05-pitch.md](docs/05-pitch.md) |
+
+## Como conversar com a Vera
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r src/requirements.txt
+python src/avaliar.py
+streamlit run src/app.py
+```
+
+`python src/avaliar.py` roda 22 perguntas fixas no modo base, sem chave de API. Na última execução, 22 passaram.
+
+O chat abre sem chave. Para uma resposta generativa, copie `.env.example` para `.env` e preencha `OPENAI_API_KEY`. O mesmo formato aceita um endpoint local, como o Ollama, em `OPENAI_BASE_URL`. A fala do modelo só substitui a da base se todos os valores em reais já existirem na ficha calculada.
+
+A compra em alerta da sessão é Eletrônicos Online INT, R$ 2.480,00, em 18/10/2025 às 02:14, no cartão final 4412.
+
+---
+
+# Estudo de detecção de fraude
 
 Notebook de classificação para transações reais de cartão, com a fraude tratada como classe rara. O arquivo executado, com tabelas e curvas salvas, é o [`deteccao_fraude_cartao.ipynb`](deteccao_fraude_cartao.ipynb).
 

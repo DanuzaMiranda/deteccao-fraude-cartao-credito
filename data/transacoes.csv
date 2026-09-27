@@ -1,0 +1,13 @@
+data,descricao,categoria,valor,tipo,status,hora,final_cartao
+2025-10-01,Salário,receita,6200.00,entrada,confirmada,09:00,4412
+2025-10-02,Aluguel,moradia,1500.00,saida,confirmada,08:10,4412
+2025-10-03,Supermercado Extra,alimentacao,387.40,saida,confirmada,18:40,4412
+2025-10-05,Netflix,lazer,55.90,saida,confirmada,07:05,4412
+2025-10-07,Farmácia,saude,64.20,saida,confirmada,19:12,4412
+2025-10-10,Restaurante,alimentacao,96.00,saida,confirmada,21:05,4412
+2025-10-12,Uber,transporte,38.50,saida,confirmada,08:32,4412
+2025-10-14,Loja Aurora Shopping,compras,210.00,saida,confirmada,16:20,4412
+2025-10-15,Conta de luz,moradia,168.30,saida,confirmada,11:00,4412
+2025-10-18,Eletrônicos Online INT,compras,2480.00,saida,alerta,02:14,4412
+2025-10-20,Academia,saude,99.00,saida,confirmada,06:50,4412
+2025-10-25,Combustível,transporte,220.00,saida,confirmada,17:45,4412

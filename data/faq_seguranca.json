@@ -1,0 +1,22 @@
+[
+  {
+    "id": "o_que_e_alerta",
+    "chaves": ["o que e um alerta", "o que significa o alerta", "por que alertou", "por que essa compra", "compra suspeita"],
+    "resposta": "Um alerta é um aviso para você conferir uma compra antes de seguir. Os motivos ficam em regras_banco.json: valor acima das saídas confirmadas do mês e horário de madrugada. O estorno não acompanha o alerta."
+  },
+  {
+    "id": "estouro_nao_garantido",
+    "chaves": ["estorno", "dinheiro de volta", "vou receber", "ja voltou", "esta garantido", "reembolso"],
+    "resposta": "Contestar abre a análise. No Banco Aurora, essa análise leva até 10 dias úteis. O estorno não é garantido e eu não tenho, nesta base, um estorno aprovado para a Marina."
+  },
+  {
+    "id": "golpe_em_andamento",
+    "chaves": ["golpe agora", "estao no telefone", "me pediram o codigo", "codigo sms", "alguem ligou"],
+    "resposta": "Se alguém está pedindo código, senha ou CVV agora, não passe esses dados. O próximo passo é bloquear o cartão no App Aurora e ligar para o canal oficial 0800 000 1234. Eu não peço esses dados e não consigo bloquear o cartão daqui."
+  },
+  {
+    "id": "modelo",
+    "chaves": ["como o modelo", "inteligencia artificial detecta", "xgboost", "por que o banco sabe"],
+    "resposta": "O alerta desta conversa segue as regras do Banco Aurora em regras_banco.json: valor acima das saídas confirmadas e horário de madrugada. O notebook do repositório é um estudo separado, com dados públicos de 2013. Esse notebook não é o modelo do Banco Aurora e não decide o alerta da Marina."
+  }
+]

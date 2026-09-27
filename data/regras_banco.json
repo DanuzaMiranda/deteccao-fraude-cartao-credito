@@ -1,0 +1,31 @@
+{
+  "instituicao": "Banco Aurora",
+  "ficticio": true,
+  "canal_oficial": "0800 000 1234",
+  "app": "App Aurora",
+  "contestacao": {
+    "prazo_cliente_dias_corridos": 7,
+    "contagem": "O prazo começa na data do alerta, 18/10/2025, e vai até 25/10/2025.",
+    "analise_dias_uteis": 10,
+    "estorno_garantido": false
+  },
+  "bloqueio_temporario": {
+    "efeito": "imediato",
+    "reversivel_no_app": true,
+    "cancela_fatura": false
+  },
+  "alerta": {
+    "motivos_documentados": [
+      "O valor em alerta é maior do que qualquer saída confirmada de outubro de 2025.",
+      "A compra ocorreu de madrugada, às 02:14."
+    ]
+  },
+  "nao_pedir": [
+    "senha",
+    "CVV",
+    "token",
+    "código SMS",
+    "número completo do cartão"
+  ],
+  "estudo_de_deteccao": "O notebook deste repositório mede um modelo de detecção em dados públicos. Ele não é o modelo do Banco Aurora. A Vera só usa as regras deste arquivo para explicar o alerta da Marina."
+}

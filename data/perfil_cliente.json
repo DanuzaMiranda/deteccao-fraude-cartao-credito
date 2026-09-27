@@ -1,0 +1,30 @@
+{
+  "nome": "Marina Alves",
+  "idade": 34,
+  "profissao": "Designer",
+  "renda_mensal": 6200.00,
+  "perfil_investidor": "conservador",
+  "aceita_risco": false,
+  "objetivo_principal": "Resolver o alerta do cartão e completar a reserva de emergência",
+  "patrimonio_total": 12000.00,
+  "reserva_emergencia_atual": 8000.00,
+  "reserva_emergencia_meta": 18600.00,
+  "cartao": {
+    "produto": "Aurora Crédito",
+    "final": "4412",
+    "status": "ativo_com_alerta"
+  },
+  "metas": [
+    {
+      "meta": "Completar reserva de emergência",
+      "valor_necessario": 18600.00,
+      "prazo": "2026-06"
+    },
+    {
+      "meta": "Trocar o notebook de trabalho",
+      "valor_necessario": 4500.00,
+      "prazo": "2026-11"
+    }
+  ],
+  "observacao": "Cliente fictícia do protótipo. Nenhum dado aqui é de uma pessoa real."
+}
