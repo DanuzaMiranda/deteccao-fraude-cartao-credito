@@ -1,4 +1,4 @@
-# Projeto final — Vera, versão 2
+# versão-projeto-final
 
 Este repositório é a entrega final. A versão 2 junta o estudo de detecção de fraude a um assistente que conversa com a pessoa que recebeu o alerta.
 
