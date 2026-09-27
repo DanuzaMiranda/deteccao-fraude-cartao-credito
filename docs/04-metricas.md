@@ -8,7 +8,7 @@ Para repetir:
 python src/avaliar.py
 ```
 
-Na última execução, **29 de 29 casos passaram**: 23 conversas e 6 checagens da trava generativa e da sessão salva.
+Na última execução, **32 de 32 casos passaram**: 26 conversas e 6 checagens da trava generativa e da sessão salva.
 
 ## Métricas
 
@@ -67,6 +67,9 @@ Não há nota de um grupo de pessoas nesta entrega. O roteiro substitui o primei
 | Nome e perfil | Marina Alves, conservador |
 | Selic do dia | sem taxa inventada; o catálogo diz 100% da Selic |
 | Contexto | depois de "Não reconheço", "O que eu faço agora?" continua na contestação |
+| Não solto | "Não" depois de uma pergunta de gasto não registra contestação |
+| Bloqueio explicado | "Como funciona o bloqueio temporário?" explica o produto e não registra o pedido |
+| Prazo da análise | "Quanto foi a análise?" responde 10 dias úteis, sem o total de gastos do mês |
 | Trava do modelo | R$ 9.999,99 e "estorno já foi aprovado" são recusados; R$ 483,40 da alimentação passa |
 | Sessão | a decisão "contestar" é gravada e some quando a conversa recomeça |
 

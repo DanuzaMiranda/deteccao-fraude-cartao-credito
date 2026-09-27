@@ -221,6 +221,24 @@ def main() -> int:
             "contem": ["7 dias", "25/10/2025", "não é garantido"],
             "nao_contem": ["Não tenho essa informação"],
         },
+        {
+            "id": "nao_solto",
+            "passos": ["Quanto gastei com alimentação?", "Não"],
+            "contem": ["reconhece essa compra"],
+            "nao_contem": ["você não reconhece a compra"],
+        },
+        {
+            "id": "explica_bloqueio",
+            "passos": ["Como funciona o bloqueio temporário?"],
+            "contem": ["Impede novas compras", "reversível"],
+            "nao_contem": ["você quer o bloqueio"],
+        },
+        {
+            "id": "prazo_analise",
+            "passos": ["Quanto foi a análise?"],
+            "contem": ["10 dias úteis", "não é garantido"],
+            "nao_contem": [brl(base.total_saidas)],
+        },
     ]
 
     falhas = 0
